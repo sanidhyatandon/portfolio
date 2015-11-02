@@ -1,0 +1,2 @@
+image_tag("/home/sanidhya/Desktop/sani.jpg")
+# => <img alt="Icon" src="/assets/icon" />
