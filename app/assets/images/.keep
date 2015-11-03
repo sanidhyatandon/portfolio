@@ -1,2 +1,6 @@
 image_tag("/home/sanidhya/Desktop/sani.jpg")
 # => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/ic_remove_red_eye_white_24dp_1x.png")
+# => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/index.png")
+# => <img alt="Icon" src="/assets/icon" />
