@@ -60,11 +60,11 @@
 	background-color: #F44336;
 
 	font-family: 'Anonymous Pro',sans-serif ;
-	float:right;
+	
 	transition-property:background-color;
 	transition-delay: 0s;
-    transition-duration: 0.5s;
-    transition-propertybackground-colortransition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-duration: 0.5s;
+  transition-propertybackground-colortransition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
    
 
 }
@@ -98,13 +98,17 @@
   transform:translateY(-10%);
   background:transparent linear-gradient(135deg, #E2718D 0%, #E2718D 8%, #E9B921 50%, #E2718D 100%) repeat scroll 0% 0% / 200% 100%;
 }
-.social_media li {
-    display: inline-block;
-    height: 24px;
-    margin: 0px 0px 0px 10px;
-    text-align: left;
-    text-indent: -9999px;
-    width: 24px;
+.card img
+{
+  padding: 50px 0 50px 20px ;
 }
-
+.card
+{
+  overflow: hidden;
+  white-space: nowrap;
+}
+#projects img
+{
+  padding-top: 50px;
+}
   

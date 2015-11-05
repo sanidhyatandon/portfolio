@@ -1,6 +1,6 @@
 class CreateTags < ActiveRecord::Migration
   def change
-    create_table :port do |t|
+    create_table :tags do |t|
     	t.string :title
     	t.string :image
 		

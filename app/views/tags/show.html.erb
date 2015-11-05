@@ -1,0 +1,14 @@
+<div class="tags">
+	<div class="container">
+		<h2 style="font-family: 'Anonymous Pro', sans-serif; color: #212121"><%= @tags.title %></h2>
+		<div class="cards row">
+			<% @projects.each do |p| %>
+			<div class="col-xs-6 col-sm-3cols " id="projects">
+				<%= image_tag p.image %>
+				<h2 style="font-family: 'Raleway', sans-serif; color: #424242"><%= p.name %></h2>
+				<p><%= p.description %></p>
+			</div>
+			<% end -%>
+		</div>
+	</div>
+</div>

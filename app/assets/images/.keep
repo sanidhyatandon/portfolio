@@ -4,7 +4,13 @@ image_tag("/home/sanidhya/Desktop/ic_remove_red_eye_white_24dp_1x.png")
 # => <img alt="Icon" src="/assets/icon" />
 image_tag("/home/sanidhya/Desktop/index.png")
 # => <img alt="Icon" src="/assets/icon" />
-image_tag("/home/sanidhya/Desktop/projects.png")
+image_tag("/home/sanidhya/Desktop/computer.png")
 # => <img alt="Icon" src="/assets/icon" />
 image_tag("/home/sanidhya/Desktop/internships-abroad-programs.png")
+# => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/innovation-cloud.jpg")
+# => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/tour-guide.jpg")
+# => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/threadly.jpg")
 # => <img alt="Icon" src="/assets/icon" />
