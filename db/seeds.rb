@@ -14,5 +14,6 @@ Project.create(name: "Threadly", image:"threadly.jpg", description: "The western
 Project.create(name: "Innovation Cloud", image:"innovation-cloud.jpg" , description: "An elite destination famous for its white sand beaches", tag_id: t1.id)
 
 t2 = Tag.create(title: "Internships", image: "internships-abroad-programs.jpg")
-Project.create(name: "Machu Picchu", description: "Machu Picchu was built around 1450, at the height of the Inca Empire.", tag_id: t2.id)
-Project.create(name: "Palace of Westminster", description: "The meeting place of the two houses of the Parliament of the United Kingdom.", tag_id: t2.id)
+Project.create(name: "Tata Consultancy Services",image:"tcs.jpg", description: "Machu Picchu was built around 1450, at the height of the Inca Empire.", tag_id: t2.id)
+Project.create(name: "Xeeva, Inc.",image:"xeeva.jpg", description: "The meeting place of the two houses of the Parliament of the United Kingdom.", tag_id: t2.id)
+

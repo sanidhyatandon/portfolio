@@ -12,5 +12,21 @@ image_tag("/home/sanidhya/Desktop/innovation-cloud.jpg")
 # => <img alt="Icon" src="/assets/icon" />
 image_tag("/home/sanidhya/Desktop/tour-guide.jpg")
 # => <img alt="Icon" src="/assets/icon" />
-image_tag("/home/sanidhya/Desktop/threadly.jpg")
+image_tag("/home/sanidhya/Desktop/tcs.jpg")
 # => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/xeeva.jpg")
+# => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/assets/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/sani2/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/border/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/border/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/border/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/border/icon" />
+image_tag("/home/sanidhya/Desktop/background.jpg")
+# => <img alt="Icon" src="/border/icon" />

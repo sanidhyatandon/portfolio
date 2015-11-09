@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration
     	    t.string :name
     	    t.string :image
 		
-			t.string :description
+			  t.string :description
 		    t.references :tag
 
       t.timestamps null: false
