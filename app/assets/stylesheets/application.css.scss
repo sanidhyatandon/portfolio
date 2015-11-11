@@ -91,8 +91,15 @@ background-size: cover;
   background-image: url(/assets/contact.jpg);
   
   background-size: cover; 
-}.highlight{
+}
+.highlight{
   float:top;
+}
+#projects
+{
+  margin-top: 1px;
+  height: 110vh;
+
 }
 
 
@@ -111,6 +118,9 @@ background-size: cover;
   -webkit-shape-outside:circle();
   shape-outside:circle();
 }
+
+
+
 .eye
 {
   padding-bottom:2.9px;
@@ -123,28 +133,30 @@ background-size: cover;
 .card img
 {
   padding: 50px 0 50px 20px ;
-  opacity: 1;
-  filter: alpha(opacity=100); /* IE8 and lower */
-  zoom: 1; /* Triggers "hasLayout" in IE 7 and lower */
+  
+ -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 .card img:hover
 {
-   opacity: 0.5;
-  filter: alpha(opacity=50); /* IE8 and lower */
-  zoom: 1; /* Triggers "hasLayout" in IE 7 and lower */
+   -webkit-filter: grayscale(100%);
 }
 #projects img 
 {
   padding: 50px 0 50px 20px ;
-  opacity: 1;
-  filter: alpha(opacity=100); /* IE8 and lower */
-  zoom: 1; /* Triggers "hasLayout" in IE 7 and lower */
+  
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 #projects img:hover
 {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* IE8 and lower */
-  zoom: 1; /* Triggers "hasLayout" in IE 7 and lower */
+   -webkit-filter: grayscale(100%);
   
 
 }
@@ -164,31 +176,46 @@ background-size: cover;
     
     margin-left: 60px
 }
-#border-image img
+.about_me img
 {
   border: 15px solid transparent;
   padding: 0;
+  float: right;
+  clear: left;
   -moz-border-image:url("/assets/border.png") 30 30 stretch; /* Old Firefox */
   -webkit-border-image:url("/assets/border.png") 30 30 stretch; /* Safari */
   -o-border-image:url("/assets/border.png") 30 30 stretch; /* Opera */
   border-image:url("/assets/border.png") 10 10 stretch;
-}
-p.featuretext {
-    font-size: 30px;
-    line-height: 56px;
-    max-width: 1100px;
-    float: left;
-    padding-right: 474px;
+   --webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          
+  }
+.about_me img:hover
+{
+ 
+  webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 
 }
-.dropcap{
-    font-size: 4em;
-    float: left;
-    display: block;
-    position: relative;
-    top: 30px;
-    padding: 0 5px 10ppx 0;
+#about p
+{
+  font-family: 'Anonymous Pro', sans-serif; 
+  padding-right: 2px;
+  font-size: 30px;
 }
+#about h2
+{
+  font-family: 'Raleway', sans-serif;
+}
+    
+
+
 .footer
 {
     
@@ -265,6 +292,20 @@ header.entry-header h1
 #logo:hover
 {
   height:68px;
+}
+#project_list img
+{
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+    
+
+}
+#project_list img:hover
+{
+  -webkit-filter: grayscale(100%);
 }
 
 
