@@ -68,7 +68,7 @@
 
 }
 
-.jumbotron{
+#welcome{
   margin-top: 1px;
 	height: 90vh;
   background-image: url(/assets/back2.jpg);
@@ -91,6 +91,8 @@ background-size: cover;
   background-image: url(/assets/contact.jpg);
   
   background-size: cover; 
+}.highlight{
+  float:top;
 }
 
 
@@ -252,7 +254,18 @@ header.entry-header h1
    pointer-events: none;
    cursor: default;
 }
-
+#logo
+{
+  -webkit-transition: all 3s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#logo:hover
+{
+  height:68px;
+}
 
 
 
