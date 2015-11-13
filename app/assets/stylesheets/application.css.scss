@@ -15,6 +15,9 @@
  */
 @import "bootstrap-sprockets" ;
 @import "bootstrap" ;  
+#ddmenu div.menu-icon {
+    display:none; /*hide menu icon initially*/
+}
 
 .nav{
 
@@ -27,9 +30,13 @@
     text-align:center;
     border-right: 10px solid #212121;
     border-bottom: 10px solid #212121;
+    position:relative;
+    margin: 0 auto;
 }
 .nav li{
     display:inline-block;
+    padding: 0;
+    margin: 0 auto;
 }
 .bt
 {
@@ -95,12 +102,7 @@ background-size: cover;
 .highlight{
   float:top;
 }
-#projects
-{
-  margin-top: 1px;
-  height: 110vh;
 
-}
 
 
 #circle-shape-example { 
@@ -146,7 +148,8 @@ background-size: cover;
 }
 #projects img 
 {
-  padding: 50px 0 50px 20px ;
+ 
+    
   
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -160,15 +163,14 @@ background-size: cover;
   
 
 }
+#projects img[src="/assets/innovation-cloud-46cb79e4e0c1ff64b9c1150b1c34bb4576bcd1b3b678434134013fc4d0a72ab2.jpg"]
+
 .card
 {
   overflow: hidden;
   white-space: nowrap;
 }
-#projects img
-{
-  padding-top: 50px;
-}
+
 #border-image
 {
     display: block;
