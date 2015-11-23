@@ -3,7 +3,11 @@
 		
 		<div class="jumbotron" id="projects">
 		<div class="row" align="center">
-		<h1 style="font-family: 'Anonymous Pro', sans-serif; color: #212121"><%= @projects.name %></h1>
+		<a href="<%= @projects.project_link %>">
+			<h1 style="font-family: 'Anonymous Pro', sans-serif; color: #212121">
+				<%= @projects.name %>
+			</h1>
+		</a>
 		<p id="project_list" ><%= image_tag @projects.image %></p>
 		<div id="details" style="margin-top:20px">
 		<p style="font-family: 'Anonymous Pro', sans-serif; color: #424242;font-size:20px; text-align:left"><%= @projects.description %></p>
