@@ -1,4 +1,5 @@
 class TagsController < ApplicationController
+	caches_page :index, :show
 	def index
 		@tags = Tag.all
 	end

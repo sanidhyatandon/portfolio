@@ -26,7 +26,9 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'pdfkit'
 gem 'prawn'
 gem 'rails_12factor', group: :production
-
+gem 'protected_attributes'
+gem 'actionpack-page_caching'
+gem 'rails-observers'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

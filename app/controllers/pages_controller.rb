@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+	caches_page :welcome, :about, :contact, :map 
 	def welcome
 		
 	end
