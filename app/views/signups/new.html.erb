@@ -1,0 +1,12 @@
+<div class="container">
+<%= form_for @signup, :url => { :action => "create" } do |f| %>
+    <div class="field">
+    	<%= f.label :signup %>
+    	<%= f.text_area :email %>
+    </div>
+
+    <div class="submit">
+     <%= f.submit "POST", :disable_with => 'Submiting...' %>
+     </div>
+     <% end %>
+     </div>
