@@ -7,13 +7,19 @@ class SignupsController < ApplicationController
 		@signup = Signup.new(signup_params)
 		if @signup.save
 			UserMailer.signup_confirmation(@signup).deliver
-			redirect_to '/thanks'
+			redirect_to def create
+				
+			end
 		else
 			
             render :new
 
 			
 		end
+		
+	end
+	def create
+		redirect_to '/thanks'
 		
 	end
 	private 
