@@ -12,7 +12,7 @@ Rails.application.configure do
     :authentication => :plain,
   }
  
-end
+
 
   config.cache_classes = true
 
