@@ -12,7 +12,5 @@ class PagesController < ApplicationController
 	def map
 		
 	end
-	def thanks
-		
-	end
+	
 end
