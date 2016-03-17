@@ -1,12 +1,16 @@
-<div class="container">
+<div class="jumbotron">
 <%= form_for @signup, :url => { :action => "create" } do |f| %>
     <div class="field">
-    	<%= f.label :signup %>
-    	<%= f.text_area :email %>
-    </div>
-
-    <div class="submit">
-     <%= f.submit "POST", :disable_with => 'Submiting...' %>
+    <h1 style="font-family: 'Lobster', cursive;">Let's keep in touch !!</h1>
+    <h2 style="font-family: 'Dosis', sans-serif; class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Leave me your Email id </h2>
+    	 
+    	<%= f.text_area :email %><br><br>
+    	
+    	<div class="submit">
+     <%= f.submit "Confirm",class: 'btn btn-info' do %><img src="/assets/ic_remove_red_eye_white_24dp_1x.png" class="eye"><span style="color:#EEEEEE; padding-left:3px;opacity: 1.0"></span><% end -%>
      </div>
      <% end %>
      </div>
+    </div>
+
+    
