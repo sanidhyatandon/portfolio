@@ -13,6 +13,9 @@ default: &default
 development:
   <<: *default
   database: portfolio_development
+  username: sanidhya
+  password: 9839088422
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -20,6 +23,8 @@ development:
 test:
   <<: *default
   database: portfolio_test
+  username: sanidhya
+  password: 9839088422
 
 production:
   <<: *default

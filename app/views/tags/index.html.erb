@@ -3,7 +3,7 @@
   <div class="jumbotron" id="tags_index">
     <div class="cards row">
       <% @tags.each do |t| %>
-      <div class="card col-xs-6">
+      <div class="card col-xs-12 col-lg-6">
         <%= image_tag t.image  %>
         <h2 style="font-family: 'Anonymous Pro', sans-serif; color: #212121"><%= t.title %></h2>
         <%= link_to "Learn more", tag_path(t), class: 'btn btn-success' %>
