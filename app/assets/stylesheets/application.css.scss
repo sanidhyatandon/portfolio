@@ -180,7 +180,6 @@
     }
     .about_me img {
         float: right;
-        width: auto;
         height: auto;
         max-width: 100%;
         padding: 0;
@@ -199,6 +198,13 @@
 
         --webkit-transition: all .5s ease;
     }
+    @media screen and (max-width: 500px) {
+        .about_me img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
     .about_me img:hover {
         -moz-transform: rotate(-10deg);
          -ms-transform: rotate(-10deg);
