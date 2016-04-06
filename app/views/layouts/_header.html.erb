@@ -1,6 +1,7 @@
 <div class="container">
     <ul class="nav nav-tabs">
-        <div class="menu col-xs-8">
+    <div class="header row">
+        <div class="menu col-xs-6 col-lg-8">
             <li><%= link_to root_path, class: 'bt' do %>
             <i class="glyphicon glyphicon-home"></i> Home <% end -%></li>
             <li><%= link_to list_path, class: 'bt' do %>
@@ -10,8 +11,10 @@
             <li><%= link_to contact_path, class: 'bt' do %>
             <i class="glyphicon glyphicon-earphone"></i> Contact <% end -%></li>
         </div>
-        <div class="name col-xs-4">
+        <div class="name col-xs-6 col-lg-4">
             <img id="logo" src="/assets/logo.jpg">
         </div>
+        </div>
+
     </ul>
 </div>
