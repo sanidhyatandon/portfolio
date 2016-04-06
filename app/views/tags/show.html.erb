@@ -1,16 +1,17 @@
 <div class="tags">
 	<div class="container">
-	
+	 <div class="jumbotron" id="tags_show">
 		<h2 style="font-family: 'Anonymous Pro', sans-serif; color: #212121"><%= @tags.title %></h2>
 		<div class="cards row">
 		
 			<% @projects.each do |p| %>
-			<div class="col-xs-6 col-sm-3cols " id="projects">
+			<div class="card col-xs-12 col-lg-6" id="projects">
 				<%= image_tag p.image %>
 				<h2 style="font-family: 'Raleway', sans-serif; color: #424242"><%= p.name %></h2>
 				<%= link_to "Learn more", project_path(p), class: 'btn btn-success' %>
 			</div>
 			<% end -%>
+		</div>
 		</div>
 	</div>
 	
